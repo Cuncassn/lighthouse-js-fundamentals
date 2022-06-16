@@ -1,15 +1,12 @@
-let age = "";
-
 function whichSchool(age) {
   if (age <= 13) {
-    console.log("Elementary School");
+    return "Elementary School";
   } else if (age > 13 && age <= 18) {
-    console.log("Secondary School");
+    return "Secondary School";
   } else if (age >= 19) {
-    console.log("Lighthouse Labs");
-  
-  }
+    return "Lighthouse Labs";
+     }
 }
-whichSchool(6);
+console.log(whichSchool(6));
 whichSchool(14);
 whichSchool(25);
